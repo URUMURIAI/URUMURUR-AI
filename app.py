@@ -4,7 +4,7 @@ st.set_page_config(
   page_icon="💡"
 )
 st.title("💡 URUMURI AI")
-st.write(mukaza nezakuri URUMURI AI_umufasha w'ikoranabunga mu kinyarwanda.")
+st.write("Murakaza neza kuri URUMURI AI, umufasha
 st.subheader("Ni iki nakugirira?")
 question=st.text_area(
   Andika ikibazo cyangwa icyo ushaka ko URUMURI AIigufashamo:"
