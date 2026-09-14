@@ -1,5 +1,4 @@
-import streamlit as st
-st.set_page_config(
+import streamlit as stst.set_page_config(
   page_title="URUMURI AI",
   page_icon="💡"
 )
