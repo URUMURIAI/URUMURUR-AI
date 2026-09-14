@@ -1,10 +1,18 @@
-import streamlit as st
+ imort streamlit as st
 st.set_page_config(
+  page_title="URUMURI AI",
   page_icon="💡"
 )
-st.title("💡  URUMURI AI")
-st.write("murakaza neza kuri URUMURI AI.")
- question=st.text_inpt("andika ikibazo cyawe:")
-if question:
-  st.write("URUMURI AI irimo gutegura igisubizo.
-  st.write(f"Ikibazo wakibajije ni: {question}")
+st.title("💡 URUMURI AI")
+st.write(mukaza nezakuri URUMURI AI_umufasha w'ikoranabunga mu kinyarwanda.")
+st.subheader("Ni iki nakugirira?")
+qustion=st.text_area(
+  Andika ikibazo cyangwa icyo ushaka ko URUMURI AIigufashamo:"
+)
+if st.button("baza URUMURI AI"):
+  if question:
+    st.success("URUMURI AI yakiriye ikibazo cyawe!")
+    st.write("Ikibazo cyawe ni:")
+    st.write(question)
+  else:
+    st.warning("Bnza wandike ikibazo cyawe.")
