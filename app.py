@@ -6,7 +6,7 @@ st.set_page_config(
 st.title("💡 URUMURI AI")
 st.write(mukaza nezakuri URUMURI AI_umufasha w'ikoranabunga mu kinyarwanda.")
 st.subheader("Ni iki nakugirira?")
-qustion=st.text_area(
+question=st.text_area(
   Andika ikibazo cyangwa icyo ushaka ko URUMURI AIigufashamo:"
 )
 if st.button("baza URUMURI AI"):
