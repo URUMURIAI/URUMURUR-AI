@@ -1,9 +1,9 @@
-imort streamlit as st
+import streamlit as st
 st.set_page_config(
   page_title="URUMURI AI",
   page_icon="💡"
 )
-st.title("💡 URUMURI AI"x)
+st.title("💡 URUMURI AI")
 st.write(mukaza nezakuri URUMURI AI_umufasha w'ikoranabunga mu kinyarwanda.")
 st.subheader("Ni iki nakugirira?")
 question=st.text_area(
